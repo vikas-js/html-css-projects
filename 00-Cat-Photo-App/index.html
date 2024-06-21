@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CatPhoto App</title>
-</head>
-<body>
-    <h1>hello</h1>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cat Photo App</title>
+  </head>
+  <body>
+   <main>
+    <h1>CatPhotoApp</h1>
+<section>
+    <h2>Cat Photos</h2>
+    <p>
+      See more cat
+      <a target="_blank" href="https://www.freecatphotoapp.com/">photos</a> in
+      our gallery.
+    </p>
+    <img src="./images/relaxing-cat.jpg" alt="cat" />
+    <h2>Cat Lists</h2>
+</section>
+   <section>
+    <h2>Things cats love:</h2>
+    <ul>
+      <li>cat nip</li>
+      <li>laser pointers</li>
+      <li>lasagna</li>
+    </ul>
+    <img src="./images/lasagna.jpg" alt="" />
+    <div>Cats love lasagna.</div>
+    <h2>Top 3 things cats hate:</h2>
+
+    <ol type="1">
+      <li>flea treatment</li>
+      <li>thunder</li>
+      <li>other cats</li>
+    </ol>
+    <img src="./images/cats.jpg" alt="cats" />
+    <div>Cats hate other cats.</div>
+   </section>
+
+   <section>
+    <h1>Cat Form</h1>
+    <form action="">
+      <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <input
+          type="radio"
+          name="in-outdoor"
+     
+          value="indoor"
+        />
+        <label for="">Indoor</label>
+
+        <input
+          type="radio"
+          name="in-outdoor"
+       
+          value="outdoor"
+        />
+        <label for="">Outdoor</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What's your cat's personality?</legend>
+        <input type="radio" name="nature" id="" value="Loving"  />
+        <label for="">Loving </label>
+        <input type="radio" name="nature" value="lazy" />
+        <label for=""> Lazy</label>
+        <input type="radio" name="nature" id="" value="energetic" />
+        <label for="">Energetic</label>
+      </fieldset>
+
+      <input type="url" name="cat-photo-url" />
+      <button>Submit</button>
+    </form>
+
+   </section>
+
+   </main>
+  </body>
 </html>
