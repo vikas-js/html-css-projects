@@ -1,0 +1,59 @@
+
+
+.container{
+    /* text-align: center; */
+    width: 100%;
+    max-width: 400px;
+    margin-inline: auto;
+    border: 2px solid rgb(255, 255, 255);
+}
+.container p{
+    margin-bottom: 32px;
+}
+
+.personal-info,.profile-photo-input,#age{
+    width: 80%;
+    margin-block: 8px;
+    
+}
+.select-container select,textarea{
+    width: 80%;
+    margin-block: 8px;
+
+}
+#personal,#business{
+    margin-bottom: 28px;
+}
+.button-container{
+    
+    
+    margin-block: 16px;
+    padding-left: 60px;
+    margin-block: 28px;
+    text-decoration: none;
+    color: black;
+
+    
+
+    
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+
+}
+#checkbox{
+    margin-bottom: 28px;
+}
+button{
+    padding-inline: 60px;
+   
+   
+
+}
+
+
+form{
+    margin-bottom: 32px;
+}

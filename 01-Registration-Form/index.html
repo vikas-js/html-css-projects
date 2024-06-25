@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Registration Form</h1>
+      </header>
+
+      <p>Please fill out this form with the required information</p>
+      <form action="/">
+        <div class="personal-info">
+          <div class="name">
+            <label class="label" for="name">Enter Your First Name:</label>
+            <br />
+            <input class="personal-info" type="text" name="name" id="name" />
+            <br />
+          </div>
+          <div class="last-name">
+            <label for="last-name">Enter Your Last Name:</label>
+            <br />
+            <input
+              class="personal-info"
+              type="text"
+              name="last-name"
+              id="last-name"
+            />
+            <br />
+          </div>
+
+          <div class="email">
+            <label for="email">Enter Your Email:</label>
+            <br />
+            <input class="personal-info" type="email" name="email" id="email" />
+            <br />
+          </div>
+
+          <div class="password">
+            <label for="password">Create a New Password:</label>
+            <br />
+            <input
+              class="personal-info"
+              type="password"
+              name="password"
+              id="password"
+            />
+            <hr />
+          </div>
+        </div>
+        <div class="account-type">
+          <p>Account type (required)</p>
+          <div class="personal-account">
+            <input
+              type="radio"
+              name="account-type"
+              value="personal"
+              id="personal"
+            />
+            <label for="personal">Personal</label>
+            <br />
+          </div>
+          <div class="business-account">
+            <input
+              type="radio"
+              name="account-type"
+              id="business"
+              value="business"
+            />
+            <label for="business">Business</label>
+            <hr />
+          </div>
+        </div>
+        <div class="profile-picture">
+          <label for="profile">Upload a profile picture:</label>
+          <input
+            class="profile-photo-input"
+            type="file"
+            name="profile"
+            id="profile"
+          />
+        </div>
+        <div class="age">
+          <label for="age">Input your age (years):</label>
+          <br />
+          <input type="number" name="age" id="age" />
+        </div>
+        <div class="select-container">
+          <label for="hear-about-from">How did you hear about us?</label>
+          <br />
+          <select name="hear-about-from" id="hear-about-from">
+            <option value="" hidden>(select one)</option>
+            <option value="yt">Youtube</option>
+            <option value="fb">Facebook</option>
+            <option value="insta">Instagram</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="bio">
+          <label for="bio">Provide a bio:</label>
+          <br />
+          <textarea
+            name="bio"
+            id="bio"
+            placeholder="I like coding on he beach..."
+          ></textarea>
+        </div>
+
+        <div class="checkbox">
+          <input type="checkbox" name="term" id="" />
+          <label name="term" for="term"
+            >I accept the <a href="">terms and conditions</a></label
+          >
+        </div>
+        <a href="/formSubmit.html" class="button-container">
+          <button>Submit</button>
+        </a>
+      </form>
+    </div>
+  </body>
+</html>
