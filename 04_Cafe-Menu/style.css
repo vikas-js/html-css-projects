@@ -1,0 +1,38 @@
+body {
+  font-family: cursive;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+.card {
+  max-width: 600px;
+
+  background-color: rgb(222, 184, 135);
+  padding: 16px;
+  margin: auto;
+  margin-block: 28px;
+}
+header {
+  text-align: center;
+}
+
+hr {
+  border: 2px solid rgb(165, 42, 42);
+  margin-block: 20px;
+}
+.title {
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+.item p {
+  margin-block: 8px;
+}
+footer {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

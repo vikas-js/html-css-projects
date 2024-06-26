@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
 }
-body{
+body {
   margin: 0;
 }
 
@@ -10,10 +10,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: center;
+ 
   font-size: 18px;
   background-color: hsl(217, 54%, 11%);
-  font-family:  Outfit;
+  font-family: Outfit;
 }
 
 .card {
@@ -29,74 +29,64 @@ main {
   border-radius: 8px;
   background-color: red;
 }
-.title{
-color: white;
-font-weight: 600;
+.title {
+  color: white;
+  font-weight: 600;
 }
-.title+p{
-    color: rgba(128, 128, 128,0.9);
+.title + p {
+  color: rgba(128, 128, 128, 0.9);
 }
-.info{
-    display: flex;
-justify-content: space-between;
+.info {
+  display: flex;
+  justify-content: space-between;
 }
-.info .value{
-    color:  hsl(178, 100%, 50%)
+.info .value {
+  color: hsl(178, 100%, 50%);
 }
-.value img{
+.value img {
   width: 10px;
 }
-.info{
+.info {
   /* margin-bottom: 32px; */
 }
 
-.info .time-left{
-    color:rgba(128, 128, 128,0.9); 
-    font-size: 16px;
+.info .time-left {
+  color: rgba(128, 128, 128, 0.9);
+  font-size: 16px;
 }
-.time-left img{
+.time-left img {
   width: 20px;
- vertical-align:bottom; 
+  vertical-align: bottom;
 }
 
-hr{
-    border: 1px solid hsl(215, 32%, 27%);
-    margin-block: 24px;
+hr {
+  border: 1px solid hsl(215, 32%, 27%);
+  margin-block: 24px;
 }
 
-.creator{
-    color: rgba(128, 128, 128,0.9);
+.creator {
+  color: rgba(128, 128, 128, 0.9);
 }
-.creator img{
+.creator img {
   width: 30px;
   vertical-align: middle;
   border: 1px solid white;
   border-radius: 50%;
-
-
 }
-.creator span{
-    color: white;
-    
-
+.creator span {
+  color: white;
 }
 
-.img-container:hover ~ .title{
-  color:  hsl(178, 100%, 50%)
-
-  
-
-}
-
-.title:hover{
+.img-container:hover ~ .title {
   color: hsl(178, 100%, 50%);
-
 }
-.creator span:hover{
-  color: hsl(178, 100%, 50%);
 
+.title:hover {
+  color: hsl(178, 100%, 50%);
+}
+.creator span:hover {
+  color: hsl(178, 100%, 50%);
 }
 
 .img-container:hover + .text-container .title {
- 
 }
