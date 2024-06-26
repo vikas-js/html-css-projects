@@ -1,0 +1,36 @@
+body {
+  background-color: #d4e1ee;
+  font-family: Outfit;
+  /* min-height: 100vh; */
+}
+.container:hover{
+  transform:scale(2)
+}
+
+.container {
+  max-width: 300px;
+  padding: 16px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 10px 20px 0px rgb(0 0 0 /20%);
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 100%);
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.2s;
+}
+
+.img-container {
+  width: 100%;
+}
+.img-container img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+h3,
+p {
+  text-align: center;
+}
